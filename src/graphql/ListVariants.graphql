@@ -1,0 +1,10 @@
+query ListVariants($graphId: ID!) {
+  graph(id: $graphId) {
+    variants {
+      id
+      createdAt
+      name
+      isProposal
+    }
+  }
+}
